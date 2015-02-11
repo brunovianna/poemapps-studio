@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView_doublet_notificacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/notificacao_doublet_perdeu"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/button_doublet_jogo"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableTop="@drawable/icon_doublet_jogo"
+            android:text="@string/button_doublet_jogo" />
+
+        <Button
+            android:id="@+id/button_doublet_refresh"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableTop="@drawable/icon_doublet_refresh"
+            android:text="@string/button_doublet_refresh" />
+        
+        
+
+</TableLayout>
+<!-- From: file:/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/layout/doublet_endgame_layout.xml -->

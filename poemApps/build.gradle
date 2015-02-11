@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "net.brunovianna.poemapps"
+        minSdkVersion 11
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':openCVLibrary2410')
+    compile 'com.android.support:support-v4:19.1.0'
+    compile files('libs/JBox2D-2.0.1-b250-Library.jar')
+    compile files('libs/android-core.jar')
+    compile files('libs/fisica.jar')
+    compile files('libs/geomerative.jar')
+    compile files('libs/opencvlibrary-2.4.9.jar')
+}

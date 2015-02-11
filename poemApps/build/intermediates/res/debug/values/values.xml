@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="doublets_array">
+		<item>bom</item>
+		<item>6</item>
+		<item>mau</item>
+		<item>fogo</item>
+		<item>6</item>
+		<item>gelo</item>
+		<item>nada</item>
+		<item>8</item>
+		<item>tudo</item>
+		<item>longe</item>
+		<item>7</item>
+		<item>perto</item>
+		<item>nada</item>
+		<item>8</item>
+		<item>tudo</item>
+		<item>céu</item>
+		<item>7</item>
+		<item>mar</item>
+		<item>deus</item>
+		<item>6</item>
+		<item>caos</item>
+		<item>manhã</item>
+		<item>8</item>
+		<item>tarde</item>
+		<item>tarde</item>
+		<item>8</item>
+		<item>noite</item>
+		<item>sol</item>
+		<item>3</item>
+		<item>lua</item>
+		<item>mente</item>
+		<item>10</item>
+		<item>corpo</item>
+		</string-array>
+    <string-array name="sopro_fases">
+		<item>003022 1111111</item>
+		<item>111111 0000 2 33</item>
+		<item>32233000 1 111000</item>
+		<item>0000000 11111144</item>
+		<item>1111111 000 0000000 for2 111111</item>
+		<item>000 11111 33 0 0 0 2322</item>
+		<item>0 0000000 0000000 11 44444443 000</item>
+		<item>33333 000</item>
+		<item>111 0 000 004323</item>
+		<item>00000</item>
+		<item>111 000 33333 2222222 11 000</item>
+		<item>2 4444444 0000</item>
+		<item>222222 333 0011</item>
+	</string-array>
+    <string-array name="sopro_texto">
+		<item>guelra palavra</item>
+		<item>dentro dela o ar</item>
+		<item>entrando e saindo</item>
+		<item>expirar inspirar</item>
+		<item>colocar uma palavra fora d’água</item>
+		<item>nas entre le / r / tras</item>
+		<item>a palavra respira os sentidos que</item>
+		<item>ainda vêm</item>
+		<item>não é uma guerra</item>
+		<item>longe</item>
+		<item>mas uma outra espécie de paz</item>
+		<item>a palavra erra</item>
+		<item>quando diz mais</item>
+	</string-array>
+    <!-- From: file:/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="black">#00000000</color>
+    <declare-styleable name="CameraBridgeViewBase"><attr format="boolean" name="show_fps"/><attr format="integer" name="camera_id"><enum name="any" value="-1"/><enum name="back" value="99"/><enum name="front" value="98"/></attr></declare-styleable>
+    <!-- From: file:/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="padding_horizontal_instrucoes">8px</dimen>
+    <dimen name="padding_instrucoes">16px</dimen>
+    <!-- From: file:/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about">Gab Marcondes + Bruno Vianna</string>
+    <string name="action_settings">wot</string>
+    <string name="app_name">PoemApps</string>
+    <string name="button_doublet_jogo">poema jogo</string>
+    <string name="button_doublet_livre">poema livre</string>
+    <string name="button_doublet_novo">jogue outro doublet</string>
+    <string name="button_doublet_refresh">tente novamente</string>
+    <string name="instrucoes_doublet">Doublets são jogos-poemas propostos por Lewis Carrol. Eles são compostos por palavras que difererem uma da outra por somente uma letra.</string>
+    <string name="instrucoes_doublet_2">Nesse aplicativo, propomos duas maneiras de interagir com os Doublets: um jogo cujo objetivo é fazer uma palavra tornar-se outra, ou a criação livre de doublets a partir de uma palavra digitada.</string>
+    <string name="notificacao_doublet_ganhou">Doublet completo. Você acertou!</string>
+    <string name="notificacao_doublet_perdeu">Você perdeu.</string>
+    <string name="sopro_instrucoes">Assopre no microfone do celular</string>
+    <string name="splash_description">Splash screen with credits and logo</string>
+    <!-- From: file:/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

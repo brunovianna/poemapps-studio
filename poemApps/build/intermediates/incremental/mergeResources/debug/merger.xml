@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="unspecified"><source path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/build/intermediates/exploded-aar/PoemApps/openCVLibrary2410/unspecified/res"><file path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/build/intermediates/exploded-aar/PoemApps/openCVLibrary2410/unspecified/res/values/values.xml" qualifiers=""><declare-styleable name="CameraBridgeViewBase"><attr format="boolean" name="show_fps"/><attr format="integer" name="camera_id"><enum name="any" value="-1"/><enum name="back" value="99"/><enum name="front" value="98"/></attr></declare-styleable></file></source></dataSet><dataSet config="main"><source path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res"><file name="ic_launcher" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable-mdpi/ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="icon" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable-ldpi/icon.png" qualifiers="ldpi-v4" type="drawable"/><file name="icon_poema_rgb" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable-hdpi/icon_poema_rgb.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_poema_pela_cidade" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable-hdpi/icon_poema_pela_cidade.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable-hdpi/icon.png" qualifiers="hdpi-v4" type="drawable"/><file name="logo" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable-hdpi/logo.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_doublet_refresh" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable-hdpi/icon_doublet_refresh.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_doublet_livre" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable-hdpi/icon_doublet_livre.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_oriente" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable-hdpi/icon_oriente.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_sopro" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable-hdpi/icon_sopro.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_doublet_jogo" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable-hdpi/icon_doublet_jogo.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_em_12_tempos" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable-hdpi/icon_em_12_tempos.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_doublets" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable-hdpi/icon_doublets.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable-hdpi/ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="ampulheta" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable-hdpi/ampulheta.png" qualifiers="hdpi-v4" type="drawable"/><file name="poemapp" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable-hdpi/poemapp.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_poema_fatorial" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable-hdpi/icon_poema_fatorial.png" qualifiers="hdpi-v4" type="drawable"/><file path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/values/dimens.xml" qualifiers=""><dimen name="padding_horizontal_instrucoes">8px</dimen><dimen name="padding_instrucoes">16px</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/values/color.xml" qualifiers=""><color name="black">#00000000</color></file><file path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/values/strings.xml" qualifiers=""><string name="action_settings">wot</string><string name="button_doublet_novo">jogue outro doublet</string><string name="notificacao_doublet_ganhou">Doublet completo. Você acertou!</string><string name="button_doublet_refresh">tente novamente</string><string name="sopro_instrucoes">Assopre no microfone do celular</string><string name="splash_description">Splash screen with credits and logo</string><string name="instrucoes_doublet">Doublets são jogos-poemas propostos por Lewis Carrol. Eles são compostos por palavras que difererem uma da outra por somente uma letra.</string><string name="button_doublet_livre">poema livre</string><string-array name="sopro_texto">
+		<item>guelra palavra</item>
+		<item>dentro dela o ar</item>
+		<item>entrando e saindo</item>
+		<item>expirar inspirar</item>
+		<item>colocar uma palavra fora d’água</item>
+		<item>nas entre le / r / tras</item>
+		<item>a palavra respira os sentidos que</item>
+		<item>ainda vêm</item>
+		<item>não é uma guerra</item>
+		<item>longe</item>
+		<item>mas uma outra espécie de paz</item>
+		<item>a palavra erra</item>
+		<item>quando diz mais</item>
+	</string-array><string name="button_doublet_jogo">poema jogo</string><string name="app_name">PoemApps</string><string name="notificacao_doublet_perdeu">Você perdeu.</string><string-array name="doublets_array">
+		<item>bom</item>
+		<item>6</item>
+		<item>mau</item>
+		<item>fogo</item>
+		<item>6</item>
+		<item>gelo</item>
+		<item>nada</item>
+		<item>8</item>
+		<item>tudo</item>
+		<item>longe</item>
+		<item>7</item>
+		<item>perto</item>
+		<item>nada</item>
+		<item>8</item>
+		<item>tudo</item>
+		<item>céu</item>
+		<item>7</item>
+		<item>mar</item>
+		<item>deus</item>
+		<item>6</item>
+		<item>caos</item>
+		<item>manhã</item>
+		<item>8</item>
+		<item>tarde</item>
+		<item>tarde</item>
+		<item>8</item>
+		<item>noite</item>
+		<item>sol</item>
+		<item>3</item>
+		<item>lua</item>
+		<item>mente</item>
+		<item>10</item>
+		<item>corpo</item>
+		</string-array><string name="instrucoes_doublet_2">Nesse aplicativo, propomos duas maneiras de interagir com os Doublets: um jogo cujo objetivo é fazer uma palavra tornar-se outra, ou a criação livre de doublets a partir de uma palavra digitada.</string><string name="about">Gab Marcondes + Bruno Vianna</string><string-array name="sopro_fases">
+		<item>003022 1111111</item>
+		<item>111111 0000 2 33</item>
+		<item>32233000 1 111000</item>
+		<item>0000000 11111144</item>
+		<item>1111111 000 0000000 for2 111111</item>
+		<item>000 11111 33 0 0 0 2322</item>
+		<item>0 0000000 0000000 11 44444443 000</item>
+		<item>33333 000</item>
+		<item>111 0 000 004323</item>
+		<item>00000</item>
+		<item>111 000 33333 2222222 11 000</item>
+		<item>2 4444444 0000</item>
+		<item>222222 333 0011</item>
+	</string-array></file><file path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/values/styles.xml" qualifiers=""><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style></file><file path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/values-v11/styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/values-sw720dp-land/dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">128dp</dimen></file><file name="progressbar" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable/progressbar.xml" qualifiers="" type="drawable"/><file name="logo" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable/logo.png" qualifiers="" type="drawable"/><file name="splash_pic" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable/splash_pic.png" qualifiers="" type="drawable"/><file name="splash_img_view" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/layout/splash_img_view.xml" qualifiers="" type="layout"/><file name="doublet_endgame_layout" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/layout/doublet_endgame_layout.xml" qualifiers="" type="layout"/><file name="activity_poem_app" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/layout/activity_poem_app.xml" qualifiers="" type="layout"/><file name="doublet_splash_layout" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/layout/doublet_splash_layout.xml" qualifiers="" type="layout"/><file name="sopro" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/layout/sopro.xml" qualifiers="" type="layout"/><file name="pelacidade_surface_view" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/layout/pelacidade_surface_view.xml" qualifiers="" type="layout"/><file name="poemapps_targetitem" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/layout/poemapps_targetitem.xml" qualifiers="" type="layout"/><file path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/values-v14/styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file><file name="ic_launcher" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable-xxhdpi/ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_launcher" path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/main/res/drawable-xhdpi/ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/></source><source path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/build/generated/res/rs/debug"/><source path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/build/generated/res/generated/debug"/></dataSet><dataSet config="debug"><source path="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="CameraBridgeViewBase"><attr format="boolean" name="show_fps"/><attr format="integer" name="camera_id"><enum name="any" value="-1"/><enum name="back" value="99"/><enum name="front" value="98"/></attr></declare-styleable></configuration></mergedItems></merger>

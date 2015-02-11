@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/libs/geomerative.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d273733cc4f08744ce9ebb01dc4c1e558725faed">
+        <dex dex="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/build/intermediates/pre-dexed/debug/geomerative-f378cf6f6e852660811bad3baa041cea2abcb83a.jar" />
+    </item>
+    <item
+        jar="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/libs/JBox2D-2.0.1-b250-Library.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="50a3958b03d8f2fbc57aaf31fbad4059358fd8eb">
+        <dex dex="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/build/intermediates/pre-dexed/debug/JBox2D-2.0.1-b250-Library-5c95747da3421aebb06bcebde9b4b56516ceaa90.jar" />
+    </item>
+    <item
+        jar="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/build/intermediates/exploded-aar/PoemApps/openCVLibrary2410/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e00ea3f95cc5d13a80ae9b52a6543c6930897767">
+        <dex dex="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/build/intermediates/pre-dexed/debug/classes-bdd05c486453fe7d2cb013ebdc41d9f272b2ce0f.jar" />
+    </item>
+    <item
+        jar="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/libs/android-core.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e4708b5eeaa3a26a59bacba5ec31f4c0ab9689ca">
+        <dex dex="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/build/intermediates/pre-dexed/debug/android-core-d00f0a24046119341ceab3bb297348ff41a61590.jar" />
+    </item>
+    <item
+        jar="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/libs/opencvlibrary-2.4.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e832696177df64fe95c0c6c418aa0f5f67f23f98">
+        <dex dex="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/build/intermediates/pre-dexed/debug/opencvlibrary-2.4.9-562ac38d52d6c382dd7bab2cc02887e5c801afdf.jar" />
+    </item>
+    <item
+        jar="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/libs/fisica.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="05120399ff1c5e80ee236d8ac8e0aea211535e28">
+        <dex dex="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/build/intermediates/pre-dexed/debug/fisica-55b884585f422ae134d26d3022dce17a5a2c252e.jar" />
+    </item>
+    <item
+        jar="/dados/apps/adt-bundle-linux-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/build/intermediates/pre-dexed/debug/support-v4-19.1.0-b9629b03afb1061f54d743e54f48f0b0557bb87f.jar" />
+    </item>
+
+</items>

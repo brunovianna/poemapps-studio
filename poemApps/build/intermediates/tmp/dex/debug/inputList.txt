@@ -1,0 +1,7 @@
+/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/build/intermediates/classes/debug
+/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/build/intermediates/pre-dexed/debug/fisica-55b884585f422ae134d26d3022dce17a5a2c252e.jar
+/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/build/intermediates/pre-dexed/debug/geomerative-f378cf6f6e852660811bad3baa041cea2abcb83a.jar
+/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/build/intermediates/pre-dexed/debug/classes-bdd05c486453fe7d2cb013ebdc41d9f272b2ce0f.jar
+/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/build/intermediates/pre-dexed/debug/support-v4-19.1.0-b9629b03afb1061f54d743e54f48f0b0557bb87f.jar
+/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/build/intermediates/pre-dexed/debug/android-core-d00f0a24046119341ceab3bb297348ff41a61590.jar
+/dados/documentos/AndroidstudioProjects/PoemApps/poemApps/build/intermediates/pre-dexed/debug/JBox2D-2.0.1-b250-Library-5c95747da3421aebb06bcebde9b4b56516ceaa90.jar

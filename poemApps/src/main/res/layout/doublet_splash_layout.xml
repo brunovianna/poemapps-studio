@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="fill_horizontal"
+            android:paddingLeft="@dimen/padding_horizontal_instrucoes"
+            android:paddingRight="@dimen/padding_horizontal_instrucoes"
+            android:paddingTop="@dimen/padding_instrucoes"
+            android:text="@string/instrucoes_doublet"
+            android:textAlignment="gravity"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="fill_horizontal"
+            android:paddingBottom="@dimen/padding_instrucoes"
+            android:paddingLeft="@dimen/padding_horizontal_instrucoes"
+            android:paddingRight="@dimen/padding_horizontal_instrucoes"
+            android:paddingTop="@dimen/padding_instrucoes"
+            android:text="@string/instrucoes_doublet_2"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <Button
+            android:id="@+id/button_doublet_jogo"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableTop="@drawable/icon_doublet_jogo"
+            android:text="@string/button_doublet_jogo" />
+
+        <Button
+            android:id="@+id/button_doublet_livre"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableTop="@drawable/icon_doublet_livre"
+            android:text="@string/button_doublet_livre" />
+
+        <Button
+            android:id="@+id/button_doublet_win"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/notificacao_doublet_ganhou"
+            android:visibility="invisible" />
+    </LinearLayout>
+    
+
+    
+</TableLayout>
