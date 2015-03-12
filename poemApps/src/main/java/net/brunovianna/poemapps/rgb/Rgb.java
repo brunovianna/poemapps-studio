@@ -6,6 +6,7 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.util.Log;
 
 
 public class Rgb extends PApplet {
@@ -15,7 +16,7 @@ public class Rgb extends PApplet {
     PImage roda, texto;
     boolean dragging, draggingRed;
     int downX, downY, halfWidth, halfHeight;
-
+    float proporcao;
     double angle = Math.PI;
     double start_phi;
 
@@ -31,9 +32,6 @@ public class Rgb extends PApplet {
         roda = loadImage("rgb_wheel.png");
         //rodashape = loadShape("rgb-rodavetorial.svg");
 
-        buf = createGraphics(roda.height*2,roda.width*2,JAVA2D);
-
-
         background(255);
         halfWidth = width/2;
         halfHeight = height/2;
@@ -44,100 +42,58 @@ public class Rgb extends PApplet {
 
         angle =(float) Math.PI;
 
+        proporcao = (float) ((float)width / (float)roda.width);
+
+
     }
 
     public void draw () {
         //blendMode();
         background(0);
 
-        float proporcao = (float) ((float)displayWidth / (float)roda.width);
 
         if (dragging) {
 
             //double delta_phi;
 
             double end_phi;
-            end_phi = Math.atan((double)(mouseY-height/2)/(mouseX-width/2));
+            end_phi = Math.atan((double)(mouseY-halfHeight)/(mouseX-halfWidth));
 
-            angle = end_phi- start_phi;
-		
-		/*
-		int direction;
-		delta_phi = dist (mouseX, mouseY, downX, downY) / 600.0f * 2.0f * Math.PI;
+            angle += (end_phi- start_phi);
 
-		if (downY > height/2) {
-			if (mouseX>downX) 
-				direction = -1;
-			 else
-				direction = 1;
-		} else {
-			if (mouseX>downX) 
-				direction = 1;
-			 else
-				direction = -1;
-		}
-			
-			
-		delta_phi *= direction;
-		
-		angle = delta_phi;
-		
-		*/
+
+
+            if ((end_phi<0)&&(start_phi>0)&&(downX>halfWidth)&&(mouseX<halfWidth))
+                angle +=Math.PI;
+
+            if ((end_phi>0)&&(start_phi<0)&&(downX<halfWidth)&&(mouseX>halfWidth))
+                angle -= Math.PI;
+
+            if ((end_phi>0)&&(start_phi<0)&&(downX>halfWidth)&&(mouseX<halfWidth))
+                angle += Math.PI;
+
+            if ((end_phi<0)&&(start_phi>0)&&(downX<halfWidth)&&(mouseX>halfWidth))
+                angle -= Math.PI;
+
+
+            Log.i("ANGLE", "Angle = " +angle+", start= "+start_phi+ " nnd = "+end_phi);
+
+            start_phi  = end_phi;
+            downX = mouseX;
+            downY = mouseY;
 
         }
 
 
-        //image (fora, (displayWidth-fora.width)/2, (displayHeight- fora.height)/2, displayWidth, displayWidth);
-        //image (texto, 0, halfHeight-texto.height*proporcao/2, width, texto.height*proporcao);
-
+        translate(0, (height-width)/2);
         pushMatrix();
-        translate(roda.width/2,roda.height/2);
+        translate(width/2,width/2);
         rotate((float) angle);
-        translate(-roda.width/2,-roda.height/2);
-        image(roda,0,0);
+        translate(-width/2,-width/2);
+        image(roda,0,0, width, width);
         popMatrix();
-        image (texto, 0, 0);
+        image (texto, 0, 0, width, width);
 
-        /*
-        buf.beginDraw();
-        buf.imageMode(CENTER);
-        buf.pushMatrix();
-        buf.translate(roda.width/2,roda.height/2);
-        buf.rotate((float) angle);
-        buf.image(roda,0,0, roda.width, roda.height);
-        //buf.shapeMode(CENTER);
-        //buf.shape(rodashape,0,0);
-        buf.popMatrix();
-        buf.endDraw();
-
-        blend (buf,0,0,roda.width,roda.height,0,(height-width)/2,width,width,SUBTRACT);
-        //blend (buf,0,0,roda.width,roda.height,0,(int)(halfHeight-texto.height*proporcao/2),(int) displayWidth, (int)(texto.height*proporcao),SUBTRACT);
-        //image (roda, (displayWidth-largura)/2, (displayHeight- altura)/2, largura, altura);
-        */
-	/*
-  	if (!dragging)  {
-    image (r, 0,0);
-    image (b,width/2,0);
-  } else {
-    if (draggingRed) {
-      println ( "r");
-      blend (r,0,0,rectWidth,rectHeight,mouseX-downX+rectWidth,mouseY-downY,rectWidth,rectHeight,SUBTRACT);
-      image (r, 0,0);
-    } else {
-      println ( "b");
-      blend (b,0,0,rectWidth,rectHeight,mouseX-downX,mouseY-downY,rectWidth,rectHeight,SUBTRACT);
-      image (b,width/2,0);
-    }
-  } 
-  
-  
-  fill (51,255,255);
-  text ("texto azul", width/3,height/3);
-  fill (204,0,0);
-  text ("texto vermelho", width/3,height/3*2);
-  //blendMode(ADD);
-  //blend (r,0,0,150,150,mouseX,mouseY,150,150,SUBTRACT);
-  */
     }
 
     public void mousePressed() {
